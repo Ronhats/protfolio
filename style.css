@@ -340,3 +340,10 @@ nav a{
   color:#194d4e;
   font-weight: 200;
 }
+
+@media (max-width: 600px) {
+  .contact{
+    font-size: 0.8rem;
+    margin:50px
+  }
+}
