@@ -1,0 +1,268 @@
+/* color pallet = 
+navy: 265073
+teal: 2D9596
+teal2: 9AD0C2
+sage: ECF4D6 */
+
+.body{
+  background-color: black;
+}
+
+@font-face {
+  font-family: "orangejuice";
+  src: url('./Assets/Font/orange\ juice\ 2.0.eot');
+  src: url('./Assets/Font/orange\ juice\ 2.0.eot') format('embedded-opentype'),
+       url('./Assets/Font/orange\ juice\ 2.0.woff2') format('woff2'),
+       url('./Assets/Font/orange\ juice\ 2.0.woff') format('woff'),
+       url('./Assets/Font/orange\ juice\ 2.0.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: "librebaskerville";
+  src: url('./Assets/Font/LibreBaskerville-Regular.eot');
+  src: url('./Assets/Font/LibreBaskerville-Regular.eot') format('embedded-opentype'),
+       url('./Assets/Font/LibreBaskerville-Regular.woff2') format('woff2'),
+       url('./Assets/Font/LibreBaskerville-Regular.woff') format('woff'),
+       url('./Assets/Font/LibreBaskerville-Regular.ttf') format('truetype');
+}
+@import url(https://fonts.googleapis.com/css?family=Bangers);
+
+/* title */
+
+.profileimg {
+ /* border-radius: 50%;
+  border: 7px solid #265073*/
+  border: solid black;
+  border-color: black; 
+  border-width: 3px 4px 3px 5px;
+  border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+  transform: rotate(2deg);
+}
+
+
+h1 {
+  font-family: "orangejuice", "sans-serif";
+}
+
+p{ 
+  font-family: "librebaskerville", "serif";
+  
+}
+
+.title{
+  background: rgb(45,149,150);
+background: linear-gradient(180deg, rgba(45,149,150,1) 0%, rgba(154,208,194,1) 100%);
+}
+
+.titleimg {
+  width:400px;
+  margin-top: 20px;
+}
+
+/* resume */
+  /*education*/
+.education{
+  background-color: #9AD0C2;
+}
+
+.section-heading{
+  font-family: "orangejuice";
+  font-size:5rem;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom:15px
+}
+.edu-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.edu-items > .box{
+/*height:300px;
+width:300px;
+background-color: #2D9596;
+border-radius: 20%;*/
+margin:25px;
+width:300px;
+height:300px;
+border: solid black;
+border-color: black; 
+border-width: 3px 4px 3px 5px;
+border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+transform: rotate(2deg);
+}
+
+h3{
+  font-family: "librebaskerville";
+  margin:20px;
+  font-weight: 900;
+}
+
+h4{
+  font-family: "librebaskerville";
+  margin:20px;
+  font-weight: 200;
+  font-size: 1rem;
+}
+.item2 h4 {
+  margin-top:70px
+}
+.item3 h4 {
+  margin-top:70px
+}
+
+  /*work-experience*/
+.work-experience{
+  background: rgb(131,196,185);
+background: linear-gradient(180deg, rgba(154,208,194,1) 0%, rgba(236,244,214,1) 100%);
+}
+
+
+
+.work-items  .box{
+  /*height:300px;
+  width:300px;
+  background-color: #2D9596;
+  border-radius: 20%;*/ 
+  margin:10px;
+  width:500px;
+  height:200px;
+  border: solid black 4px;
+  border-color: black; 
+  border-radius: 0% 0% 50% 50% / 0% 0% 5% 5% ;
+  box-shadow: 10px 10px rgba(0,0,0,.25);
+  }
+  
+
+
+
+.item4{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item5{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.item6{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.work-items img{
+  height:200px
+}
+
+.projects{
+background: rgb(236,244,214,1);
+background: linear-gradient(180deg, rgba(236,244,214,1) 0%, rgba(45,149,150,1) 100%);
+}
+
+.projects h3{
+  font-family:"orangejuice";
+  font-size:3rem
+}
+
+.projects p{
+  font-family: "librebaskerville";
+  font-weight: 700;
+}
+
+.btn {
+  width:200px;
+  font-family: "librebaskerville";
+  letter-spacing: .1rem;
+}
+
+.projects img {
+  transition: .5s ease;
+  }
+  
+  .projects img:hover{
+  box-shadow:
+  1px 1px #373737,
+  2px 2px #373737,
+  3px 3px #373737,
+  4px 4px #373737,
+  5px 5px #373737,
+  6px 6px #373737,
+  15px 15px #373737;
+ 
+
+  -webkit-transform: translateX(-3px);
+  transform: translateX(-3px);
+  transition: .5s ease;
+  }
+
+  
+  #interests{
+    background: rgb(45,149,150);
+  background: linear-gradient(180deg, rgba(45,149,150,1) 0%, rgba(38,80,115,1) 100%);
+  
+
+  }
+  .interests>.section-heading{
+    color:#ECF4D6;
+  }
+.interests{
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-bottom:30px
+}
+  
+  .interests p{
+    font-family: "librebaskerville";
+    text-align: justify;
+    padding:20px;
+    font-size: 1.05rem;
+    color:#ECF4D6;
+  }
+.interests>.box{
+  border: dashed #ECF4D6;
+  border-color: #ECF4D6; 
+  border-width: 3px 4px 3px 5px;
+  border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+  transform: rotate(2deg);
+  margin:10px;
+  Width:450px
+}
+  .dogs {
+    border: dashed #ECF4D6;
+    border-color: #ECF4D6; 
+    border-width: 3px 4px 3px 5px;
+    border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+    transform: rotate(2deg);
+    height:300px;
+  }
+
+  #footer{
+    background-color: #265073 ;
+    margin:0;
+    
+  }
+  .footer{
+    color:#ECF4D6;
+  }
+
+  button {
+    font-family: "librebaskerville";
+    outline: none;
+    color: #265073;
+    padding: 0.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+    border: 2px dashed #265073;
+    border-radius: 15px;
+    background-color: #ECF4D6;
+    box-shadow: 0 0 0 4px #ECF4D6, 2px 2px 4px 2px rgba(0, 0, 0, 0.5);
+    transition: .1s ease-in-out, .4s color;
+  }
+  
+  button:active {
+    transform: translateX(0.1em) translateY(0.1em);
+    box-shadow: 0 0 0 4px #EADDCA, 1.5px 1.5px 2.5px 1.5px rgba(0, 0, 0, 0.5);
+  }
